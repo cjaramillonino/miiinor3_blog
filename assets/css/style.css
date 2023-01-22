@@ -20,7 +20,7 @@ main {
 }
 
 header {
-  background-color: blue;
+  background-color: darkblue;
   color: #ffffff;
   display: flex;
   flex-direction: column;
