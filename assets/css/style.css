@@ -17,14 +17,31 @@ main {
   background: #ffffff;
   margin: 0 auto;
   max-width: 800px;
+}
+
+header {
+  background-color: blue;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   padding: 20px 30px;
+  width: 100%;
+}
+
+header h2 {
+  font-size: 2.5rem;
+}
+
+header span {
+  font-size: 1.4rem;
 }
 
 article.post {
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 2fr;
-  padding-top: inherit;
+  padding: 20px 30px;
   position: relative;
 }
 
@@ -33,7 +50,7 @@ article.post::after {
   bottom: 2.5rem;
   content: '';
   height: 2px;
-  left: calc(100% - 700px);
+  left: calc(100% - 760px);
   position: absolute;
   width: 90%;
 }
