@@ -41,9 +41,8 @@ article.post {
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 2fr;
-  <<<<<<< HEAD padding: 20px 30px;
-  =======padding-top: inherit;
-  >>>>>>>19f2272 (Commit al master del blogpost) position: relative;
+  padding: 20px 30px;
+  position: relative;
 }
 
 article.post::after {
@@ -51,9 +50,8 @@ article.post::after {
   bottom: 2.5rem;
   content: '';
   height: 2px;
-  <<<<<<< HEAD left: calc(100% - 760px);
-  =======left: calc(100% - 700px);
-  >>>>>>>19f2272 (Commit al master del blogpost) position: absolute;
+  left: calc(100% - 760px);
+  position: absolute;
   width: 90%;
 }
 
