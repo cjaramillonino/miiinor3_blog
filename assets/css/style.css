@@ -80,3 +80,12 @@ article.post::after {
 .post__prg p+p {
   margin-top: 1.7rem;
 }
+
+footer {
+  background: #1f1f1f;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  width: 100%;
+}
